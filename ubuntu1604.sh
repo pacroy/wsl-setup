@@ -1,5 +1,4 @@
 #!/bin/bash
-# Run with curl https://xxx -sL | sudo -E bash -
 set -e
 
 # Update system
