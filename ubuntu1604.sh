@@ -44,3 +44,8 @@ sudo apt-key --keyring /etc/apt/trusted.gpg.d/Microsoft.gpg adv \
 sudo apt-get update
 sudo apt-get install azure-cli
 sudo az aks install-cli
+
+# Configure Git
+git config --global user.email "pacroy@gmail.com"
+git config --global user.name "Par"
+git config --global push.default simple
