@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sudo -l
+
 # Update system
 sudo apt-get update
 sudo apt-get upgrade -y
